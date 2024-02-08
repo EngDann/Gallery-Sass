@@ -1,5 +1,5 @@
 # Gallery-Sass
-#English
+##English
 ## Project Information
 
 ### Motivation
@@ -66,7 +66,7 @@ I am open to feedback, questions, and collaboration opportunities!
 
 I hope you enjoy my project as much as I enjoyed developing it!
 
-#Portuguese
+##Portuguese
 # Gallery-Sass
 ## Informações do Projeto
 
