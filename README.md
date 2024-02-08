@@ -64,6 +64,7 @@ Este projeto é licenciado sob a Licença MIT - veja o arquivo `LICENSE.md` para
 Para entrar em contato comigo, sinta-se à vontade para:
 - Enviar um e-mail para [danilodemeloribeiro0@gmail.com](mailto:danilodemeloribeiro0@gmail.com)
 - Conectar-se via LinkedIn: [Danilo de Melo Ribeiro](https://www.linkedin.com/in/engdann/)
+
 Estou aberto a feedbacks, perguntas e oportunidades de colaboração!
 
 
