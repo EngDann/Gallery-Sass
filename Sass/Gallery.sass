@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,300&display=swap')
+@import './_variables.sass'
+@import './_mixins.sass'
+*
+    font-family: "Josefin Sans"
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+    a
+        text-decoration: none
+        transition: .4s
+    ul
+        list-style: none
+body
+    color: $text-color
+    background: $back-color
+
+.header
+    display: flex
+    justify-content: space-between
+    @include container()
+    @include mobile()
+        padding: 1.1rem
+    @include tablet()
+        justify-content: center
+    &-brand // .header-brand
+        margin-left: 2%
+        color: $primary-color
+        font-size: 3rem
+        @include tablet()
+            margin-right: 5%
+
+    &-navbar
+        ul
+            height: 100%
+            @include flex-center()
+            @include mobile()
+                display: none
+            li
+                padding: 0 1rem
+                text-transform: uppercase
+                font-size: .8rem
+                .active
+                    color: $secondary-color
+                a
+                    color: $text-color
+                a:hover
+                    color: $secondary-color
+
+    &-social-media
+        ul
+            height: 100%
+            @include mobile()
+                display: none
+            @include tablet()
+                display: none
+            @include flex-center()
+            li
+                margin: 0 1rem
+                a
+                    color: $text-color
+                    i:hover
+                        color: $primary-color
+
+.gallery
+    @include container()
+    @include flex-center()
+    flex-wrap: wrap
+    justify-content: space-between
+    padding: 0
+    @include mobile()
+        flex-direction: column
+    &-card
+        width: 31%
+        min-height: 400px
+        margin-bottom: 4%
+        @include flex-center()
+        @include mobile()
+            width: 90%
+            margin-bottom: 6%
+        @include tablet()
+            width: 45%
+            margin: 2%
+        flex-direction: column
+        color: $primary-color
+        &-title
+            font-size: 2rem
+            font-weight: 300
+            margin-block: 1rem
+        &-btn
+            padding: .6rem 2rem
+            border: 2px solid $primary-color
+            color: $primary-color
+            font-weight: 400
+            text-transform: uppercase
+            letter-spacing: 1px
+            &:hover
+                background-color: $primary-color
+                color: $back-color
+    #card-1
+        @include back-img('animais.jpg')
+    #card-2
+        @include back-img('arquitetura.jpg')
+    #card-3
+        @include back-img('cidade.jpg')
+    #card-4
+        @include back-img('decoracao.jpg')
+    #card-5
+        @include back-img('esportes.jpg')
+    #card-6
+        @include back-img('natureza.jpg')
+    #card-7
+        @include back-img('paisagem.jpg')
+    #card-8
+        @include back-img('pessoas.jpg')
+    #card-9
+        @include back-img('refeicoes.jpg')
+        @include tablet()
+            margin: auto
+            width: 45%
+
+footer
+    text-align: center
+    padding-block: 2rem
+    span
+        font-weight: bold
+        color: $secondary-color
