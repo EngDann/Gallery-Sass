@@ -1,7 +1,7 @@
 # Gallery-Sass
-# Classic Gallery
+# Gallery
 
-A Classic Gallery é uma galeria de fotos online, projetada para exibir coleções de imagens em várias categorias, como Animais, Arquitetura, Cidades, Decorações, Esportes, Natureza, Paisagem, Pessoas e Refeições. O design é clean e moderno, oferecendo uma experiência de navegação intuitiva e agradável.
+A Gallery é uma galeria de fotos online, projetada para exibir coleções de imagens em várias categorias, como Animais, Arquitetura, Cidades, Decorações, Esportes, Natureza, Paisagem, Pessoas e Refeições. O design é clean e moderno, oferecendo uma experiência de navegação intuitiva e agradável.
 
 ## Tecnologias Utilizadas
 
@@ -15,6 +15,21 @@ A Classic Gallery é uma galeria de fotos online, projetada para exibir coleçõ
 - Galeria categorizada que permite aos usuários explorar diferentes tipos de fotos.
 - Botões de ação rápida para acessar mais fotos de cada categoria.
 - Links para redes sociais integrados para promover maior engajamento.
+
+## Informações do Projeto
+
+### Motivação
+Desenvolvido para aprimorar habilidades em HTML e SASS, este projeto foca em técnicas de design responsivo e estilização avançada para criar uma galeria de imagens intuitiva e visualmente atraente.
+
+### Tecnologias Principais
+- **HTML**: Estrutura o conteúdo de forma semântica e acessível.
+- **SASS**: Promove um design mais organizado e modular, facilitando a estilização com recursos como variáveis e mixins.
+
+### Descrição
+"Gallery" é uma site que exibe uma série de categorias de imagens, como Animais, Arquitetura e Cidades, com um design simples, mas elegante. Projetada para ser responsiva, a interface se adapta a diferentes dispositivos, proporcionando uma experiência de usuário fluida e agradável. 
+
+### Aprendizados
+Este projeto foi uma oportunidade para explorar profundamente SASS e suas funcionalidades, além de reforçar a importância do design responsivo. A experiência consolidou conhecimentos em estilização avançada e práticas de UI/UX, focando na acessibilidade e na experiência do usuário.
 
 ## Visualizando o Projeto Localmente
 
@@ -44,6 +59,13 @@ Sua contribuição é bem-vinda! Se deseja melhorar a Classic Gallery, siga este
 Este projeto é licenciado sob a Licença MIT - veja o arquivo `LICENSE.md` para detalhes.
 
 ---
+## Contato
 
-Espero que você desfrute da Classic Gallery tanto quanto gostei de desenvolvê-la!
+Para entrar em contato comigo, sinta-se à vontade para:
+- Enviar um e-mail para [danilodemeloribeiro0@gmail.com](mailto:danilodemeloribeiro0@gmail.com)
+- Conectar-se via LinkedIn: [Danilo de Melo Ribeiro](https://www.linkedin.com/in/engdann/)
+Estou aberto a feedbacks, perguntas e oportunidades de colaboração!
+
+
+Espero que você desfrute do meu projeto tanto quanto gostei de desenvolvê-la!
  
